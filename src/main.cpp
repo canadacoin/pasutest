@@ -2002,7 +2002,7 @@ bool LoadBlockIndex(bool fAllowNew)
     
         
         // Genesis block
-        const char* pszTimestamp = "Traditionally one puts something timely here coinciding with the epoch";
+        const char* pszTimestamp = "The Physics and Astronomy Student Union at the University of Toronto is a gathering place for the finest specimens of mankind";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
